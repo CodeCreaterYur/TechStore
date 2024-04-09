@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="media.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="font/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">TechStore</div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">card</a></li>
+                </ul>
+                <div class="burger-menu">&#9776;</div>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Search</button>
+            </div>
+        </div>
+    </header>
+    <div class="swiper-container slider">
+        <div class="swiper-wrapper">
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <div class="filter-container">
+        <label>Select category:</label>
+        <div class="category-buttons">
+            <button class="category-button" value="all">All categories</button>
+            <button class="category-button" value="smartphones"><i class="fa-solid fa-mobile-screen ic1"></i>Smartphones </button>
+            <button class="category-button" value="laptops" ><i class="fa-solid fa-laptop ic1"></i>Laptops </button>
+            <button class="category-button" value="fragrances"> Fragrances</button>
+            <button class="category-button" value="skincare">Skincare</button>
+            <button class="category-button" value="groceries">Groceries</button>
+
+            
+            
+        </div>
+    </div>
+
+    <div class="product-list"></div>
+
+    <div class="cart-overlay">
+        <div class="cart">
+                <span class="close">&times;</span>
+                <h2>Your Cart</h2>
+            <div class="cart-items">
+
+            </div>
+            <div class="cart-total">
+                <h3>Total: <span class="total-price">$0.00</span></h3>
+                <button class="clear-cart">Clear Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+         <div class="container">
+            <div class="logo">TechStore</div>
+                <span class="num">+374 77 777 777</span>
+                <div class="contact-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="mailto:esiminch77.gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
